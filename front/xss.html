@@ -9,7 +9,7 @@
 <div class="container">
     <div class="row py-5">
         <div class="col">
-            <h1 class="text-center">Security Corp</h1>
+            <h1 class="text-center text-danger"><strong>Security Corp</strong></h1>
         </div>
     </div>
     <div class="row">
@@ -41,9 +41,26 @@
 <div class="container">
     <div class="row mt-5">
         <div class="col">
-            <p>Bonjour et bienvenue sur mon super site !</p>
-
-            <img src="https://fakeimg.pl/350x200/?text=BONJOUR">
+            <h2>Les failles XSS</h2>
+            <p>Lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet </p>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col">
+            <h2>La faille</h2>
+            <form id="formXssFaille">
+                <label for="rechercheXSSFaille"></label>
+                <input id="rechercheXSSFaille" class="form-control" type="text" placeholder="Tapez ici votre recherche" />
+                <input type="submit" class="btn-success form-control">
+            </form>
+        </div>
+        <div class="col">
+            <h2>La faille réparée</h2>
+            <form id="formXssFailleReparee">
+                <label for="rechercheXSSFailleReparee"></label>
+                <input id="rechercheXSSFailleReparee" class="form-control" type="text" placeholder="Tapez ici votre recherche" />
+                <input type="submit" class="btn-success form-control">
+            </form>
         </div>
     </div>
 </div>
