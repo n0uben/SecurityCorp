@@ -48,10 +48,10 @@
     <div class="row mt-5">
         <div class="col">
             <h2>La faille</h2>
-            <form id="formXssFaille">
+            <form id="formXssFaille" action="">
                 <label for="rechercheXSSFaille"></label>
                 <input id="rechercheXSSFaille" class="form-control" type="text" placeholder="Tapez ici votre recherche" />
-                <input type="submit" class="btn-success form-control">
+                <input id="rechercheXSSFailleButton" type="submit" class="mt-2 btn btn-danger form-control" value="Recherche">
             </form>
         </div>
         <div class="col">
@@ -59,12 +59,12 @@
             <form id="formXssFailleReparee">
                 <label for="rechercheXSSFailleReparee"></label>
                 <input id="rechercheXSSFailleReparee" class="form-control" type="text" placeholder="Tapez ici votre recherche" />
-                <input type="submit" class="btn-success form-control">
+                <input id="rechercheXSSFailleRepareeButton" type="submit" class="mt-2 btn btn-success form-control" value="Recherche">
             </form>
         </div>
     </div>
 </div>
 
-<script src="./js/main.js"></script>
+<script src="./js/xss.js"></script>
 </body>
 </html>
