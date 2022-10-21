@@ -9,7 +9,7 @@
 <div class="container">
     <div class="row">
         <div class="col text-center">
-            <img class="" src="./img/security-corp-logo.png" alt="Security Corp">
+            <h1 class="text-danger">SECURITY CORP</h1>
         </div>
     </div>
     <div class="row">
@@ -22,6 +22,9 @@
                     <a href="./xss.php" class="nav-link">Faille XSS</a>
                 </li>
                 <li class="nav-item">
+                    <a href="./injection.php" class="nav-link">Faille Injection SQL</a>
+                </li>
+                <li class="nav-item">
                     <a href="./login.php" class="nav-link">Faille Login</a>
                 </li>
                 <li class="nav-item">
@@ -30,9 +33,7 @@
                 <li class="nav-item">
                     <a href="./composant.php" class="nav-link">Faille Composant</a>
                 </li>
-                <li class="nav-item">
-                    <a href="./sql.php" class="nav-link">Faille Injection SQL</a>
-                </li>
+
             </ul>
         </div>
     </div>
