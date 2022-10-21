@@ -1,8 +1,8 @@
 <?php
-define('DB_NAME', 'noureux2u_projetSecurite');
-define('DB_USER', 'noureux2u_appli');
-define('DB_PASSWORD', '32124643');
-define('DB_HOST', 'devbdd.iutmetz.univ-lorraine.fr');
+define('DB_NAME', 'noureux2u_projetsecurite');
+define('DB_USER', 'root');
+define('DB_PASSWORD', '');
+define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 
 ini_set('display_errors', 1);

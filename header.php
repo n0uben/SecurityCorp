@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Security Corp</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container">
@@ -27,13 +27,6 @@
                 <li class="nav-item">
                     <a href="./login.php" class="nav-link">Faille Login</a>
                 </li>
-                <li class="nav-item">
-                    <a href="./csrf.php" class="nav-link">Faille CSRF</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./composant.php" class="nav-link">Faille Composant</a>
-                </li>
-
             </ul>
         </div>
     </div>
