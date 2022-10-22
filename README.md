@@ -11,3 +11,7 @@ Pour faire tourner le projet :
 - Renseigner vos informations de connexion de base de données dans le fichier config.php
 - Lancer le fichier index.php
 - Voilà !
+
+## Comptes pour la connexion :
+- admin / admin
+- user / user
