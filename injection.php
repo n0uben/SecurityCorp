@@ -7,7 +7,7 @@
                 <p>Les failles d'injection SQL existent quand les entrées de l'utilisateurs ne sont pas vérifiées avant d'être envoyées en BDD
                     <br>
                     <br>
-                    Sur l'exemple ci-dessous, dans le formulaire avec faille, si on entre dans le formulaire "Robert");DROP TABLE utilisateurs;
+                    Sur l'exemple ci-dessous, dans le formulaire avec faille, si on entre dans le formulaire : Robert");DROP TABLE publications;
                     <br>
                     l’utilisateur malveillant peut supprimer toutes les publications en BDD. C'est la faille du petit <a href="https://xkcd.com/327/" target="_blank">"Bobby tables", rendue célèbre par XKCD</a> .
                     <br>

@@ -13,6 +13,13 @@
                 <br>
                 <br>
                 Un simple échappement des caractères avec la fonction "hmtlentities" de php permet d'éviter ce désagrément.
+                <br>
+                <br>
+                A noter : on aurait pu faire une faille XSS persistante, ou l'utilisateur malveillant aurait pu
+                <br>
+                carrément envoyer du script executable dans notre BDD (ex: un forum), et tous les utilisateurs
+                <br>
+                chargeant la page où le script apparait l'aurait exécuté ! #MinagedeBitcoinAfond
             </p>
         </div>
     </div>

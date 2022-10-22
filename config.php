@@ -1,7 +1,7 @@
 <?php
 define('DB_NAME', 'noureux2u_projetsecurite');
-define('DB_USER', 'root');
-define('DB_PASSWORD', '');
+define('DB_USER', 'phpmyadmin');
+define('DB_PASSWORD', 'Voitureu42mint');
 define('DB_HOST', 'localhost');
 define('DB_CHARSET', 'utf8');
 

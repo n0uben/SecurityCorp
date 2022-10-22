@@ -9,6 +9,7 @@ $bdd = new PDO('mysql:host='.DB_HOST.';dbname='.DB_NAME.';charset=utf8', DB_USER
 if(isset($_POST['messageFaille'])):
     $message =  $_POST['messageFaille'];
     $requeteFaille = "INSERT INTO publications (message) VALUES(\" $message \")";
+    echo $requeteFaille;
     $bdd->exec($requeteFaille);
 endif;
 
